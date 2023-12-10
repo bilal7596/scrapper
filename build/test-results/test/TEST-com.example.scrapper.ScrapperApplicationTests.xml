@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.scrapper.ScrapperApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-10T13:26:51" hostname="LINDBGMDDK3" time="0.801">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.scrapper.ScrapperApplicationTests" time="0.801"/>
+  <system-out><![CDATA[18:56:48.650 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.scrapper.ScrapperApplicationTests]: ScrapperApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:56:48.896 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.scrapper.ScrapperApplication for test class com.example.scrapper.ScrapperApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2023-12-10T18:56:49.603+05:30  INFO 17828 --- [    Test worker] c.e.scrapper.ScrapperApplicationTests    : Starting ScrapperApplicationTests using Java 17.0.2 with PID 17828 (started by babi2002 in C:\Users\babi2002\Desktop\SpringBoot\scrapper)
+2023-12-10T18:56:49.605+05:30  INFO 17828 --- [    Test worker] c.e.scrapper.ScrapperApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-12-10T18:56:51.569+05:30  INFO 17828 --- [    Test worker] c.e.scrapper.ScrapperApplicationTests    : Started ScrapperApplicationTests in 2.388 seconds (process running for 4.395)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
