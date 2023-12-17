@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.scrapper.ScrapperApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-17T17:48:40" hostname="192.168.1.12" time="0.338">
+<testsuite name="com.example.scrapper.ScrapperApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-17T18:24:39" hostname="192.168.1.12" time="0.308">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.scrapper.ScrapperApplicationTests" time="0.338"/>
-  <system-out><![CDATA[23:18:35.796 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.scrapper.ScrapperApplicationTests]: ScrapperApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-23:18:35.835 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.scrapper.ScrapperApplication for test class com.example.scrapper.ScrapperApplicationTests
+  <testcase name="contextLoads()" classname="com.example.scrapper.ScrapperApplicationTests" time="0.308"/>
+  <system-out><![CDATA[23:54:32.482 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.scrapper.ScrapperApplicationTests]: ScrapperApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:54:32.522 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.scrapper.ScrapperApplication for test class com.example.scrapper.ScrapperApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,23 +13,65 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.0)
 
-2023-12-17T23:18:35.992+05:30  INFO 7307 --- [    Test worker] c.e.scrapper.ScrapperApplicationTests    : Starting ScrapperApplicationTests using Java 20.0.2.1 with PID 7307 (started by bilalbasham in /Users/bilalbasham/Coding/scrapper)
-2023-12-17T23:18:35.992+05:30  INFO 7307 --- [    Test worker] c.e.scrapper.ScrapperApplicationTests    : The following 1 profile is active: "production"
-2023-12-17T23:18:36.302+05:30  INFO 7307 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-12-17T23:18:36.326+05:30  INFO 7307 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
-2023-12-17T23:18:36.490+05:30  INFO 7307 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-12-17T23:18:37.617+05:30  INFO 7307 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69a40b3c
-2023-12-17T23:18:37.620+05:30  INFO 7307 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-12-17T23:18:37.693+05:30  INFO 7307 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-12-17T23:18:37.743+05:30  INFO 7307 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
-2023-12-17T23:18:37.756+05:30  INFO 7307 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2023-12-17T23:18:37.845+05:30  INFO 7307 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-12-17T23:18:37.975+05:30  WARN 7307 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2023-12-17T23:18:38.458+05:30  INFO 7307 --- [    Test worker] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.example.scrapper.entity.ArticleImagesEntity (class must be instantiated by Interceptor)
-2023-12-17T23:18:38.524+05:30  INFO 7307 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2023-12-17T23:18:39.776+05:30  INFO 7307 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-12-17T23:18:40.215+05:30  WARN 7307 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-12-17T23:18:40.405+05:30  INFO 7307 --- [    Test worker] c.e.scrapper.ScrapperApplicationTests    : Started ScrapperApplicationTests in 4.519 seconds (process running for 5.011)
+2023-12-17T23:54:32.676+05:30  INFO 8130 --- [    Test worker] c.e.scrapper.ScrapperApplicationTests    : Starting ScrapperApplicationTests using Java 20.0.2.1 with PID 8130 (started by bilalbasham in /Users/bilalbasham/Coding/scrapper)
+2023-12-17T23:54:32.676+05:30  INFO 8130 --- [    Test worker] c.e.scrapper.ScrapperApplicationTests    : The following 1 profile is active: "production"
+2023-12-17T23:54:32.972+05:30  INFO 8130 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-17T23:54:33.000+05:30  INFO 8130 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 3 JPA repository interfaces.
+2023-12-17T23:54:33.154+05:30  INFO 8130 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-17T23:54:34.840+05:30  INFO 8130 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bbb6f0
+2023-12-17T23:54:34.843+05:30  INFO 8130 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-17T23:54:34.915+05:30  INFO 8130 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-17T23:54:34.935+05:30  INFO 8130 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-17T23:54:34.947+05:30  INFO 8130 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-17T23:54:35.038+05:30  INFO 8130 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-17T23:54:35.549+05:30  WARN 8130 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-17T23:54:36.421+05:30  INFO 8130 --- [    Test worker] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.example.scrapper.entity.ArticleImagesEntity (class must be instantiated by Interceptor)
+2023-12-17T23:54:36.487+05:30  INFO 8130 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    create table article_contents (
+        id bigserial not null,
+        content TEXT,
+        article_id serial,
+        primary key (id)
+    )
+Hibernate: 
+    create table article_images (
+        id bigserial not null,
+        image_url varchar(255),
+        article_id serial,
+        primary key (id)
+    )
+Hibernate: 
+    create table articles (
+        id bigserial not null,
+        additional_details jsonb,
+        is_article boolean,
+        title varchar(255),
+        top_image_url varchar(255),
+        url varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    alter table if exists article_contents 
+       drop constraint if exists UK_bcrmwevrwceodrld1d8lfim9p
+2023-12-17T23:54:38.519+05:30  WARN 8130 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-12-17T23:54:38.520+05:30  WARN 8130 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_bcrmwevrwceodrld1d8lfim9p" of relation "article_contents" does not exist, skipping
+Hibernate: 
+    alter table if exists article_contents 
+       add constraint UK_bcrmwevrwceodrld1d8lfim9p unique (article_id)
+Hibernate: 
+    alter table if exists article_contents 
+       add constraint FKaprj7semvarfysl5x91nfngo1 
+       foreign key (article_id) 
+       references articles
+Hibernate: 
+    alter table if exists article_images 
+       add constraint FKpcdiyyvqcn7o8xugv0ud9ab5x 
+       foreign key (article_id) 
+       references articles
+2023-12-17T23:54:38.993+05:30  INFO 8130 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17T23:54:39.590+05:30  WARN 8130 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-17T23:54:39.771+05:30  INFO 8130 --- [    Test worker] c.e.scrapper.ScrapperApplicationTests    : Started ScrapperApplicationTests in 7.197 seconds (process running for 7.66)
 Hiiiiiiii------------
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
